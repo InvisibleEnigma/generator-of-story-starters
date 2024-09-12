@@ -1,3 +1,67 @@
 body {
-    background-color: bisque;
+  background-color: rgb(230, 244, 255);
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  color: rgb(191, 155, 112);
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 1.5;
+  color: rgb(20, 20, 51);
+}
+h3 {
+  text-align: center;
+  font-size: 22px;
+}
+form {
+  padding: 30px;
+  background-color: rgb(255, 250, 246);
+  box-shadow: 0px 20px 30px rgba(152, 137, 118, 0.453);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid bisque;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: rgb(20, 20, 51);
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: bisque;
+  color: rgb(70, 56, 38);
+  border: none;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+.story-beginings {
+  font-size: 16px;
+  background-color: rgb(255, 250, 246);
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 4px solid bisque;
+  box-shadow: 0px 20px 30px rgba(152, 137, 118, 0.453);
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
 }
