@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>story starter ideas AI generator</title>
   </head>
@@ -21,9 +22,9 @@
       <main>
         <h3>
           Stuck on how to start your story? <br />
-          Enter your story idea to generate ideas on how to start your story.
+          Enter your story idea to generate ways to start your story.
         </h3>
-        <form>
+        <form id="story-generator">
           <input
             type="text"
             placeholder="Enter your story idea"
@@ -34,9 +35,8 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="story-beginings">
-          story ideas will go here <br />
-          and here.
+        <div class="story-beginings" id="story">
+          
         </div>
       </main>
       <footer>
