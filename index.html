@@ -22,24 +22,28 @@
       </header>
       <main>
         <h3>
-          Stuck on how to start your story? <br />
+          Stuck on how to start your mystery story? <br />
           Enter your story idea to generate ways to start your story.
         </h3>
-        <form id="story-generator">
-          <input
-            type="text"
-            placeholder="Enter your story idea"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="story-beginings" id="story">
-          
+        <div class="form-container">
+          <form id="story-generator">
+            <input
+              type="text"
+              placeholder="Enter your word for a myster story begining..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            i.e Frog, Storm, Dog detective, Ronda the great mouse detective,
+            etc.
+          </div>
         </div>
+        <div class="story-beginings hidden" id="story"></div>
       </main>
       <footer>
         This project was coded by AJC and opened-sourced on
